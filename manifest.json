@@ -1,0 +1,11 @@
+{
+  "name": "Email/UserID Copier",
+  "version": "1.0.2",
+  "description": "An extension that stores your usernames and emails.",
+  "manifest_version": 3,
+  "author": "gaurish",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}

@@ -1,0 +1,48 @@
+img {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+#add-btn {
+  border: 1px solid black;
+  padding: 2px;
+  cursor: pointer;
+}
+#delete-btn {
+  border: 1px solid rgb(255, 143, 143);
+
+  display: flex;
+  margin-top: 2px;
+  width: 100%;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#delete-btn:hover {
+  border: 1px solid rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
+li {
+  display: flex;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  margin-top: 2px;
+  width: 100%;
+  justify-content: center;
+}
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
